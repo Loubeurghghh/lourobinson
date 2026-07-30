@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lou Robinson — Engineering Leader</title>
+  <title>Lou Robinson, Engineering Leader</title>
   <meta name="description" content="Engineering leader, author, and musician based in Dorset. Scaling engineering teams, building with AI, writing dark fiction, and playing sludge metal.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,6 +88,27 @@
       padding: 8rem 2.5rem 5rem;
       max-width: 900px;
       margin: 0 auto;
+    }
+
+    .hero-inner {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent-dim);
+      flex-shrink: 0;
+    }
+
+    .hero-main {
+      flex: 1;
+      min-width: 280px;
     }
 
     .hero-eyebrow {
@@ -498,19 +519,24 @@
 
   <!-- Hero -->
   <div class="hero">
-    <p class="hero-eyebrow">Engineering Leader / Author / Musician</p>
-    <h1>Lou<br>Robinson</h1>
-    <div class="hero-rule"></div>
-    <p class="hero-desc">
-      I build <strong>engineering teams</strong> that scale through the hard parts, 
-      <strong>AI-native products</strong> from the ground up, 
-      <strong>dark fiction</strong> that takes its time, 
-      and <strong>riffs</strong> that do the same.
-    </p>
-    <div class="hero-links">
-      <a href="#cv" class="btn btn-primary">View CV</a>
-      <a href="https://www.linkedin.com/in/lourobinson" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
-      <a href="mailto:lourobinson.music@live.co.uk" class="btn btn-outline">Get in touch</a>
+    <div class="hero-inner">
+      <img src="/lou-robinson.jpg" alt="Lou Robinson" class="hero-photo">
+      <div class="hero-main">
+        <p class="hero-eyebrow">Engineering Leader / Author / Musician</p>
+        <h1>Lou<br>Robinson</h1>
+        <div class="hero-rule"></div>
+        <p class="hero-desc">
+          I build <strong>engineering teams</strong> that scale through the hard parts,
+          <strong>AI-native products</strong> from the ground up,
+          <strong>dark fiction</strong> that takes its time,
+          and <strong>riffs</strong> that do the same.
+        </p>
+        <div class="hero-links">
+          <a href="#cv" class="btn btn-primary">View CV</a>
+          <a href="https://www.linkedin.com/in/lourobinson" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+          <a href="mailto:lourobinson.music@live.co.uk" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -522,13 +548,13 @@
     <h2 class="section-title">Engineering leader.<br>Builder of teams and things.</h2>
     <div class="section-body">
       <p>
-        I'm an Engineering Manager based in West Moors, Dorset, with a track record of scaling engineering organisations through high-growth funding stages — Dexory (Series A to C), Sylvera (Seed to Series B), and InfoSum (Series B). I report directly to CTOs, own platform strategy and budget, and build the kind of teams where engineers grow into leaders themselves.
+        I'm an Engineering Manager based in West Moors, Dorset, with a track record of scaling engineering organisations through high-growth funding stages: Dexory (Series A to C), Sylvera (Seed to Series B), and InfoSum (Series B). I report directly to CTOs, own platform strategy and budget, and build the kind of teams where engineers grow into leaders themselves.
       </p>
       <p>
-        Before moving into software, I spent over eight years at Ageas Insurance across motor, household, and personal injury — which means I understand regulated, high-stakes environments from the inside. I started in QA, moved into DevOps and platform engineering, and have been leading engineering teams for the past several years.
+        Before moving into software, I spent over eight years at Ageas Insurance across motor, household, and personal injury, which means I understand regulated, high-stakes environments from the inside. I started in QA, moved into DevOps and platform engineering, and have been leading engineering teams for the past several years.
       </p>
       <p>
-        I use Claude Code daily and build production AI products in my own time. I care deeply about engineering culture, psychological safety, and the discipline of doing things properly — which probably explains both the engineering career and the sludge metal.
+        I use Claude Code daily and build production AI products in my own time. I care deeply about engineering culture, psychological safety, and the discipline of doing things properly, which probably explains both the engineering career and the sludge metal.
       </p>
     </div>
     <div class="highlights">
@@ -576,11 +602,12 @@
           <span class="stack-tag">Supabase</span>
           <span class="stack-tag">Cloudflare</span>
         </div>
+        <a href="https://gatepost.org/" target="_blank" rel="noopener" class="human-link">gatepost.org &rarr;</a>
       </div>
 
       <div class="project-card">
         <div class="project-header">
-          <div class="project-name">Trophee</div>
+          <div class="project-name">Trophē</div>
           <span class="project-status status-live">Live</span>
         </div>
         <p class="project-desc">
@@ -591,6 +618,7 @@
           <span class="stack-tag">TypeScript</span>
           <span class="stack-tag">Supabase</span>
         </div>
+        <a href="https://www.trophe.uk/" target="_blank" rel="noopener" class="human-link">trophe.uk &rarr;</a>
       </div>
 
       <div class="project-card">
@@ -599,7 +627,7 @@
           <span class="project-status status-dev">In Development</span>
         </div>
         <p class="project-desc">
-          A voice conversation app for language learning — built to replace Duolingo for Greek. Simulates real conversations with native speaker personas using LLMs and browser-native voice-to-text, with plans to integrate a voice synthesis API for authentic accent simulation. Because the final hurdle to fluency isn't vocabulary, it's actually speaking.
+          A voice conversation app for language learning, built to replace Duolingo for Greek. Simulates real conversations with native speaker personas using LLMs and browser-native voice-to-text, with plans to integrate a voice synthesis API for authentic accent simulation. Because the final hurdle to fluency isn't vocabulary, it's actually speaking.
         </p>
         <div class="stack-tags">
           <span class="stack-tag">TypeScript</span>
@@ -607,6 +635,7 @@
           <span class="stack-tag">Web Speech API</span>
           <span class="stack-tag">Cloudflare</span>
         </div>
+        <a href="https://epos.lourobinson.com/" target="_blank" rel="noopener" class="human-link">epos.lourobinson.com &rarr;</a>
       </div>
 
     </div>
@@ -640,7 +669,7 @@
         <p class="writing-desc">
           A portal fantasy series for younger readers. A world through the hedge, an adventure through the seasons, and something waiting at the top of the mountain.
         </p>
-        <p class="writing-status">In development — awaiting illustration</p>
+        <p class="writing-status">In development, awaiting illustration</p>
       </div>
 
     </div>
@@ -651,7 +680,7 @@
   <!-- Music & Scouts -->
   <section id="music">
     <p class="section-eyebrow">Outside the work</p>
-    <h2 class="section-title">Slow riffs<br>and good causes.</h2>
+    <h2 class="section-title">Slow riffs, spanners,<br>and good causes.</h2>
     <div class="human-grid">
 
       <div class="human-card">
@@ -668,6 +697,30 @@
         <div class="human-title">Scout Volunteering</div>
         <p class="human-desc">
           I volunteer with Scouts, helping young people develop skills, confidence, and a connection with the natural world. The leadership principles aren't so different from engineering management, it turns out.
+        </p>
+      </div>
+
+      <div class="human-card">
+        <div class="human-icon">🌷</div>
+        <div class="human-title">Theodora's Garden</div>
+        <p class="human-desc">
+          A board game I'm designing with my six-year-old daughter. A semi-cooperative game for two to six players about planting flowers and tending a garden, trying to make something beautiful together.
+        </p>
+      </div>
+
+      <div class="human-card">
+        <div class="human-icon">🏍️</div>
+        <div class="human-title">Motorcycles</div>
+        <p class="human-desc">
+          I modify motorcycles and I'm currently studying for a motorcycle maintenance diploma, learning the mechanics properly rather than just enough to get by.
+        </p>
+      </div>
+
+      <div class="human-card">
+        <div class="human-icon">🏡</div>
+        <div class="human-title">House &amp; Garden</div>
+        <p class="human-desc">
+          Renovating the house and garden one project at a time, currently building a car port.
         </p>
       </div>
 
