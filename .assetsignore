@@ -1,0 +1,12 @@
+wrangler.jsonc
+package.json
+package-lock.json
+bun.lock
+.gitignore
+.assetsignore
+node_modules/
+.wrangler/
+.git/
+.claude/
+.DS_Store
+.env
